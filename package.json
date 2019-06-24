@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "My Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Ashin Abbasi",
+  "license": "ISC",
+  "dependencies": {
+    "i": "^0.3.6",
+    "node-sass": "^4.12.0"
+  }
+}
