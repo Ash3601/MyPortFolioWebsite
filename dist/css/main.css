@@ -93,6 +93,47 @@
 .nav-item:nth-child(5) {
   transition-delay: 1.5s; }
 
+@media screen and (max-width: 768px) {
+  main {
+    align-items: center;
+    text-align: center; }
+    main .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem;
+      font-size: 4.5rem !important; }
+    main .sm-heading {
+      font-size: 1.5rem !important; }
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0; }
+    ul.menu-nav.show,
+    div.menu-branding.show {
+      transform: translate3d(0, 0, 0); }
+  .menu-nav {
+    padding-bottom: 5rem; }
+  .nav-link {
+    font-size: 1.4rem !important;
+    line-height: 0.8 !important;
+    margin-top: 0px;
+    padding-top: 0; }
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(-100%, 0, 0);
+    font-size: 24px; }
+  .menu-branding {
+    height: 45vh;
+    transform: translate3d(100%, 0, 0); }
+    .menu-branding .portrait {
+      background: url("../img/portrait_small.jpg");
+      width: 150px;
+      height: 150px; } }
+
+@media screen and (max-width: 500px) {
+  main main#home h1 {
+    margin-top: 10vh; } }
+
 * {
   box-sizing: border-box; }
 
