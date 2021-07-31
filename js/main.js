@@ -91,8 +91,9 @@ const currentProjects = `
 `;
 
 const workListDiv = document.querySelector('.projects');
+if (workListDiv != null) {
 workListDiv.innerHTML = currentProjects;
-
+}
 // Set Initial State Of Menu
 let showMenu = false;
 
